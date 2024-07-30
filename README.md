@@ -18,4 +18,10 @@
 
 [rolebinding](https://github.com/SSitkarev/2.4-k8s-permissions/blob/main/src/rolebinding.yaml)
 
+С правами нашего пользователя (user) мы имеем доступ на листинг pod-ов в заданном namespace, а в default, например, доступа нет.
+
 ![Задание1](https://github.com/SSitkarev/2.4-k8s-permissions/blob/main/img/2.jpg)
+
+Так же имеем доступ на чтение логов pod-ов из заданного namespace
+
+![Задание1](https://github.com/SSitkarev/2.4-k8s-permissions/blob/main/img/3.jpg)
